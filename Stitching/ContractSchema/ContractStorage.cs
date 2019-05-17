@@ -26,29 +26,32 @@ namespace Demo.Contracts
                 CustomerId = "2",
                 Premium = 789.12
             },
-            new SomeOtherContract
+            new PensionPlan
             {
                 Id = "1",
                 CustomerId= "1",
-                ExpiryDate = new DateTime(2015, 2, 1, 0,0,0, DateTimeKind.Utc)
+                AmmountSaved = 1000023232.5m,
+                DueDate = new DateTime(2015, 2, 1, 0,0,0, DateTimeKind.Utc)
             },
-            new SomeOtherContract
+            new PensionPlan
             {
                 Id = "2",
                 CustomerId= "2",
-                ExpiryDate = new DateTime(2015, 5, 1, 0,0,0, DateTimeKind.Utc)
+                DueDate = new DateTime(2015, 5, 1, 0,0,0, DateTimeKind.Utc)
             },
-            new SomeOtherContract
+            new PensionPlan
             {
                 Id = "3",
                 CustomerId= "3",
-                ExpiryDate = new DateTime(2017, 1, 30, 0,0,0, DateTimeKind.Utc)
+                AmmountSaved = 506722032.5m,
+                DueDate = new DateTime(2017, 1, 30, 0,0,0, DateTimeKind.Utc)
             },
-            new SomeOtherContract
+            new PensionPlan
             {
                 Id = "4",
                 CustomerId= "3",
-                ExpiryDate = new DateTime(2020, 1, 1, 0,0,0, DateTimeKind.Utc)
+                AmmountSaved = 234565m,
+                DueDate = new DateTime(2020, 1, 1, 0,0,0, DateTimeKind.Utc)
             }
         };
     }

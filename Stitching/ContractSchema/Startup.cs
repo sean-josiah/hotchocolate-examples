@@ -18,7 +18,7 @@ namespace Demo.Contracts
             {
                 c.RegisterQueryType<QueryType>();
                 c.RegisterType<LifeInsuranceContractType>();
-                c.RegisterType<SomeOtherContractType>();
+                c.RegisterType<PensionPlanType>();
 
                 c.UseGlobalObjectIdentifier();
             }));

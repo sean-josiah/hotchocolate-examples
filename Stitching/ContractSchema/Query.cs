@@ -29,7 +29,7 @@ namespace Demo.Contracts
             else
             {
                 return _contractStorage.Contracts
-                    .OfType<SomeOtherContract>()
+                    .OfType<PensionPlan>()
                     .FirstOrDefault(t => t.Id.Equals(value.Value));
             }
         }

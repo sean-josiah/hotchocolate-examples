@@ -7,7 +7,7 @@ namespace Demo.Customers
     public class CustomerResolver
     {
         public Consultant GetConsultant(
-            Customer customer,
+            [Parent]Customer customer,
             [Service]CustomerRepository repository)
         {
             if (customer.ConsultantId != null)
