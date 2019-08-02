@@ -10,7 +10,7 @@ We support more DataLoader scenarious with Hot Chocolate than are showcased with
 
 ## Setup Mongo
 
-Personally I used docker to host my mongo db for the example. If you have setup docker that just add the following line in your terminal emulator of choice:
+Personally I used docker to host my mongo db for the example. If you have setup docker then just add the following line in your terminal emulator of choice:
 
 ```bash
 docker run --name mongo -p 27017:27017 -d mongo mongod
